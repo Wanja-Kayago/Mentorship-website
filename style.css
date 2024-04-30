@@ -1,0 +1,515 @@
+/* welcome page */
+#container{
+    background-color:dodgerblue;
+    height: 700px;  
+    border: solid 1px black;
+    margin-top: 70px;
+}
+#akiralogo{
+    margin-left: 850px;
+}
+#bodyyy{
+    background-color: pink;
+}
+.Noah{
+ margin-left: 700px;
+ width: 500px;
+ height: 400px;
+}
+.tittle{
+    text-align: center;
+}
+.Summary{
+    text-align: center;
+    font-size: x-large;
+}
+.logo{
+    width: auto;
+}
+#words{
+    text-align: center;
+}
+.sentence{
+    font-size: medium;
+}
+.words{
+font-size: xxx-large;
+}
+/* sign up */
+.image{
+    width: 100px;
+    height: 100px;
+    margin-right: 2000px;
+}
+#form1{
+    margin-top: 1000px;
+    border: solid 1px;
+    margin:0 auto;
+    width: 1000px;
+    padding:1px;
+    background-color:dodgerblue ;
+    text-align: center;   
+}
+/* sign in */
+.image{
+    width: 100px;
+    height: 100px;
+    margin-right: 1200px;
+   
+}
+#content{
+    margin-top: 50px;
+}
+#form{
+    border: solid 1px;
+    margin:0 auto;
+height: 800px;
+    width: 1000px;
+    padding:1px;
+    background-color:dodgerblue ;
+    text-align: center;  
+}
+input{
+       /* padding: 94px 902 px; */
+       border-radius: 5px;
+       border: solid 1px;
+       width: 500px;
+    height: 50px;
+}
+button{
+    padding:4px 30px;
+    border: none;
+    background-color:white;
+    color: brown;
+    border-radius: 20px;
+    height: 50px;
+}
+.designlogo{
+    width: 100px;
+    height: 100px;
+}
+/* home */
+#container2{
+    background-color: wheat;
+    height: 850px;
+    margin-top: 1px;
+}
+.name{
+    font-weight: lighter;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    border: solid dodgerblue;
+    background-color:deepskyblue;
+    margin-bottom: 1px
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: deepskyblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.fotr{
+    margin-top: 200px;
+}
+#hero{
+    margin-left: 600px;
+    height: 730px;
+}
+.joy{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    margin-bottom: 50px;
+}
+#subhero{
+display: flex;
+gap: 100px;
+margin-left: 70px;
+}
+.name{
+    margin-top: 70px;
+}
+/* to-do */
+#body2 {
+    font-family: sans-serif;
+    /* margin: 0; */
+    /* padding: 20px; */
+    background-color: wheat;
+    height: 900px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 5px;
+    position: relative;
+    left: 40px;
+    margin-left: 450px;
+  }
+  
+  #new-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .title{
+    text-align: center;
+  }
+  
+  #add-task {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 65px;
+    position: relative;
+    left: 40px;
+  }
+  
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+  }
+  
+  #todo-list li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  #todo-list li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #todo-list li button.delete {
+    color: red;
+  }
+  /* achievements */
+  #achievements-container{
+    background-color:  wheat;
+     margin-left: 600px;
+     
+}
+#container1{
+    background-color:wheat;
+height: 900px;
+}
+#add-achievement{
+    background-color: #4CAF50;
+    height: 60px;
+}
+#titles{
+    margin-left:150px ;
+}
+/* goals */
+  #sgoals{
+    border: solid wheat;
+    background-color: wheat;  
+    width: 500px;
+    margin-top:20px ;
+  }
+  .word{
+    font-size: xx-large;
+  }
+  #lgoals{
+    border: solid wheat;
+    width: 500px;
+    background-color: wheat;  
+}
+  #hero1{
+display: flex;
+justify-content: space-around;
+margin-left: 20px;
+height: 650px;
+  }
+.ttl{
+    text-align: center;
+}
+@media all and (min-device-width:280px) and (max-device-width:1024px){
+    /* welcome page */
+#container{
+    background-color:dodgerblue;
+    height: 500px;  
+    border: solid 1px black;
+    flex-wrap: wrap;
+    margin-top:40px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+#body1{
+    margin-top: 90px;
+}
+#akiralogo{
+    margin-left: 140px;
+    width:10px;
+    height:100px;
+}
+#words{
+    text-align: center;
+}
+.sentence{
+    font-size: x-small;
+}
+.words{
+font-size: small;
+}
+/* sign up */
+.images{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#body{
+    width: 100px;
+}
+#form1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    border: solid 1px;
+    margin:0 auto;
+    width: 340px;
+    /* padding:1px; */
+    background-color:dodgerblue ;
+    text-align:center;   
+}
+/* sign in */
+.image{
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+}
+#content{
+    margin-top: 5px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    border: solid 1px;
+    margin:0 auto;
+height: 700px;
+    width: 330px;
+    padding:1px;
+    background-color:dodgerblue ;
+    text-align: center;  
+
+}
+input{
+       /* padding: 94px 902 px; */
+       border-radius: 5px;
+       border: solid 1px;
+       width: 300px;
+    height: 30px;
+}
+button{
+    /* margin-left: 100px; */
+    padding:5px 20px;
+    border: none;
+    background-color:white;
+    color: brown;
+    border-radius: 20px;
+    height: 30px;
+}
+.designlogo{
+    width: 20px;
+    height: 20px;
+}
+/* home */
+#container2{
+    background-color: wheat;
+    height: 800px;
+    margin-top: 1px;
+}
+.name{
+    font-weight: lighter;
+}
+#navbar{
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid dodgerblue;
+    background-color:deepskyblue;
+    margin-bottom: 1px
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+#img{
+    margin-right: 200px;
+}
+#footer{
+    display: flex;
+    /* justify-content: space-around; */
+    gap:1px;
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+
+}
+.fotr{
+    margin-top:40px;
+    margin-left: 90px;
+    
+}
+#hero{
+    margin-left: 10px;
+}
+.joy{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+#subhero{
+display: flex;
+gap: 10px;
+margin-left: 30px;
+}
+.name{
+    margin-top: 70px;
+}
+/* to-do */
+#body2 {
+    font-family: sans-serif;
+    /* margin: 0; */
+    /* padding: 20px; */
+    background-color: wheat;
+    height: 700px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 5px;
+    position: relative;
+    left: 40px;
+    margin-left: 1px;
+  }
+  
+  #new-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc 10;
+    border-radius: 4px;
+        
+  }
+  
+  #add-task {
+    padding: 5px 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+  }
+  
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+  }
+  
+  #todo-list li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  #todo-list li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #todo-list li button.delete {
+    color: red;
+  }
+  /* achievements */
+  #achievements-container{
+    background-color:  wheat;
+     margin-left: 6px;
+     
+}
+#container1{
+    background-color:wheat;
+height: 900px;
+width: 350px;
+}
+#add-achievement{
+    background-color: #4CAF50;
+    height: 30px;
+}
+#titles{
+    margin-left:10px ;
+}
+/* goals */
+  #sgoals{
+    border: solid wheat;
+    background-color: wheat;  
+    width: 500px;
+  }
+  #lgoals{
+    border: solid wheat;
+    width: 500px;
+    background-color: wheat;  
+}
+.word{
+    font-size: small;
+  #hero1{
+display: flex;
+justify-content: space-around;
+margin-left: 20px;
+  }
+.ttl{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+}
+}
