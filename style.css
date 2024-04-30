@@ -18,11 +18,13 @@
  object-fit: contain;
 }
 .tittle{
-    text-align: center;
+    text-align: left;
+    margin-left: 50px;
 }
 .Summary{
-    text-align: center;
+    text-align: left;
     font-size: x-large;
+    margin-left: 10px;
 }
 .logo{
     width: auto;
